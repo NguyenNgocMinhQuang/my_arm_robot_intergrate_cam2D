@@ -1,0 +1,25 @@
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+<name>my_robot_commander_py</name>
+<version>0.0.0</version>
+<description>TODO: Package description</description>
+<maintainer email="quangwww602@gmail.com">minh_quang</maintainer>
+<license>TODO: License declaration</license>
+<depend>rclpy</depend>
+<!--  MOI THEM cho pick_place_state_machine.py  -->
+<depend>geometry_msgs</depend>
+<depend>moveit_msgs</depend>
+<depend>shape_msgs</depend>
+<depend>tf2_ros</depend>
+<depend>tf2_geometry_msgs</depend>
+<!--  Dung boi test_moveit.py, commander_template.py va pick_place_state_machine.py,
+       nhung truoc gio chua duoc khai bao - them vao cho du  -->
+<depend>tf_transformations</depend>
+<test_depend>ament_copyright</test_depend>
+<test_depend>ament_flake8</test_depend>
+<test_depend>ament_pep257</test_depend>
+<test_depend>python3-pytest</test_depend>
+<export>
+<build_type>ament_python</build_type>
+</export>
+</package>

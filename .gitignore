@@ -1,0 +1,7 @@
+.vscode/
+*.db
+*.db*
+*:Zone.Identifier
+build/
+install/
+log/

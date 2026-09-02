@@ -1,0 +1,5 @@
+<library path="my_robot_hardware">
+<class name="arm_hardware/ArmHardwareInterface" type="arm_hardware::ArmHardwareInterface" base_class_type="hardware_interface::SystemInterface">
+<description> Hardware interface for a 6-DOF arm, all 6 joints driven by stepper motors via serial (STM32/Arduino), open-loop </description>
+</class>
+</library>

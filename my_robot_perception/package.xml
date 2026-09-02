@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+<name>my_robot_perception</name>
+<version>0.0.0</version>
+<description>ArUco marker perception node cho pick and place</description>
+<maintainer email="quangwww602@gmail.com">minh_quang</maintainer>
+<license>TODO: License declaration</license>
+<depend>rclpy</depend>
+<depend>sensor_msgs</depend>
+<depend>geometry_msgs</depend>
+<depend>tf2_ros</depend>
+<depend>cv_bridge</depend>
+<!--  python3-opencv cung cap module cv2 (bao gom cv2.aruco) qua apt  -->
+<depend>python3-opencv</depend>
+<!--  Camera driver thuc te, chon 1 trong 2 tuy he thong ban cai  -->
+<exec_depend>usb_cam</exec_depend>
+<test_depend>ament_copyright</test_depend>
+<test_depend>ament_flake8</test_depend>
+<test_depend>ament_pep257</test_depend>
+<test_depend>python3-pytest</test_depend>
+<export>
+<build_type>ament_python</build_type>
+</export>
+</package>
